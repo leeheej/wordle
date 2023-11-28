@@ -1,0 +1,76 @@
+img {
+  display: block;
+  width: 100%;
+}
+header {
+  position: relative;
+  padding-bottom: 30px;
+}
+header .logo {
+  position: absolute;
+  font-size: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header .menu {
+  width: 40px;
+}
+.header .setting_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .setting_area > div {
+  width: 40px;
+  padding: 0 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
+footer {
+  margin: 50px auto;
+}
+footer .keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+footer .keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 10px;
+}
+footer .keyboard-column.wide {
+  width: 100px;
+}
+footer .keyboard-column .back-space-icon {
+  width: 60%;
+}
