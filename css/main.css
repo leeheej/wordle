@@ -31,6 +31,14 @@ header .logo {
   padding: 0 10px;
 }
 
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
 .board-row {
   display: flex;
   justify-content: center;
